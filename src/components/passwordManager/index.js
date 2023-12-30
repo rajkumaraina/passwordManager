@@ -6,6 +6,16 @@ import './index.css'
 
 import EachItem from '../passwordItem'
 
+const initialContainerBackgroundClassNames = [
+  'amber',
+  'blue',
+  'orange',
+  'emerald',
+  'teal',
+  'red',
+  'light-blue',
+]
+
 class PasswordManager extends Component {
   state = {
     initialPasswordList: [],
@@ -20,11 +30,16 @@ class PasswordManager extends Component {
   SubmitButton = event => {
     event.preventDefault()
     const {websiteInput, passwordInput, usernameInput} = this.state
+    const val = Math.ceil(
+      Math.random() * initialContainerBackgroundClassNames.length - 1,
+    )
+    const backgroundColor = `listFirstLetter ${initialContainerBackgroundClassNames[val]}`
     const newPassword = {
       id: uuidv4(),
       website: websiteInput,
       username: usernameInput,
       password: passwordInput,
+      backgroundColor,
     }
     this.setState(prevState => ({
       initialPasswordList: [...prevState.initialPasswordList, newPassword],

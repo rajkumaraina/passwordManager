@@ -2,7 +2,7 @@ import './index.css'
 
 const EachItem = props => {
   const {item, showPassword, deleteItem} = props
-  const {id, website, username, password} = item
+  const {id, website, username, password, backgroundColor} = item
   const deleteEach = () => {
     deleteItem(id)
   }
@@ -23,7 +23,7 @@ const EachItem = props => {
     <li className="listName">
       <div className="WebsiteInfor">
         <div className="onlyContainer">
-          <p className="listFirstLetter">{firstLetter}</p>
+          <p className={backgroundColor}>{firstLetter}</p>
           <div className="name_password">
             <p className="eachItem">{website}</p>
             <p className="eachItem">{username}</p>

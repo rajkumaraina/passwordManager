@@ -1,8 +1,36 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
 .listName {
   list-style-type: none;
   border-radius: 8px;
   border: 1px solid #ffffff33;
-  width: 33%;
+  width: 30%;
   padding: 8px;
   margin: 8px;
 }
@@ -12,7 +40,6 @@
 }
 .listFirstLetter {
   height: 70px;
-  background-color: green;
   width: 70px;
   font-size: 35px;
   font-weight: 400;
@@ -43,4 +70,9 @@
 }
 .startImg {
   width: 125px;
+}
+@media (max-width: 576px) {
+  .listName {
+    width: 100%;
+  }
 }
