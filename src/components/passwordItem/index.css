@@ -1,0 +1,46 @@
+.listName {
+  list-style-type: none;
+  border-radius: 8px;
+  border: 1px solid #ffffff33;
+  width: 33%;
+  padding: 8px;
+  margin: 8px;
+}
+.WebsiteInfor {
+  display: flex;
+  justify-content: space-between;
+}
+.listFirstLetter {
+  height: 70px;
+  background-color: green;
+  width: 70px;
+  font-size: 35px;
+  font-weight: 400;
+  margin: 0;
+  margin-right: 14px;
+  text-align: center;
+  border-radius: 45px;
+  padding-top: 5px;
+  color: #ffffff;
+}
+.eachItem {
+  color: #ffffff;
+  margin: 1px;
+  font-size: 16px;
+}
+.deletebutton {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+}
+.deleteImg {
+  width: 35px;
+  height: 35px;
+}
+.onlyContainer {
+  display: flex;
+}
+.startImg {
+  width: 125px;
+}

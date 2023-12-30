@@ -1,0 +1,221 @@
+.MainContainer {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  padding-left: 85px;
+}
+@media (max-width: 576px) {
+  .MainContainer {
+    padding: 0;
+  }
+}
+.bgContainer {
+  width: 85%;
+  padding-top: 25px;
+}
+.LogoIMG {
+  width: 155px;
+  height: 55px;
+  margin: 8px;
+}
+.secondContainer {
+  background-color: #5763a5;
+  display: flex;
+  width: 90%;
+  margin-bottom: 8px;
+  padding: 20px;
+  border-radius: 8px;
+  justify-content: space-between;
+  height: 35%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.inputsContainer {
+  background-color: #454f84;
+  padding: 12px;
+  border-radius: 8px;
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .inputsContainer {
+    width: 100%;
+  }
+}
+.inputHeading {
+  color: #f8fafc;
+  font-size: 15px;
+}
+.inputs {
+  display: flex;
+  height: 35px;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.Searchinput {
+  display: flex;
+  margin-top: 4px;
+  height: 35px;
+  width: 35%;
+  background-color: #ffffff;
+  border-radius: 4px;
+  align-items: center;
+}
+.inputImg {
+  width: 35px;
+  height: 35px;
+  padding: 7px;
+  border-right: 1px solid #94a3b8;
+}
+.inputValues {
+  height: 35px;
+  border: 0 none;
+  margin-left: 10px;
+  outline: none;
+  color: #b6c3ca;
+  font-weight: 550;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 55px;
+  height: 25px;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+}
+.addButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.passwordsImgContainer {
+}
+.color {
+  color: #333333;
+}
+.passwordsImg {
+  width: 280px;
+  height: 250px;
+}
+.passwordsImgSm {
+  width: 280px;
+  height: 250px;
+  display: none;
+}
+@media (max-width: 576px) {
+  .passwordsImg {
+    display: none;
+  }
+  .passwordsImgSm {
+    display: flex;
+    height: 350px;
+  }
+}
+
+@media (max-width: 576px) {
+  .secondContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputsContainer {
+    order: 1;
+  }
+}
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.count_para {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+.yourPara {
+  color: #ffffff;
+  margin: 0;
+}
+.passwordCount {
+  width: 35px;
+  height: 28px;
+  margin: 0;
+  margin-top: 3px;
+  text-align: center;
+  border-radius: 39px;
+  border: 2px solid #ffffff33;
+  color: #ffffff;
+  margin-left: 8px;
+}
+.thirdContainer {
+  display: flex;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomContainer {
+  background-color: #5763a5;
+  width: 90%;
+  margin-bottom: 8px;
+  padding: 20px;
+  height: 55%;
+  padding-bottom: 35px;
+  border-radius: 8px;
+}
+@media (max-width: 576px) {
+  .bottomContainer {
+    width: 100%;
+  }
+}
+.horizontalLine {
+  border: 1px solid #b6c3ca;
+  margin-top: 15px;
+}
+.CheckBoxContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.lableElement {
+  color: #ffffff;
+  margin: 3px;
+}
+.noPasswordContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noPasswordImg {
+  width: 35%;
+  text-align: center;
+  height: 250px;
+  margin-bottom: 15px;
+}
+@media (max-width: 576px) {
+  .noPasswordImg {
+    width: 85%;
+  }
+}
+.unordered {
+  padding: 0;
+  display: flex;
+}
+.noPara {
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .yourPara {
+    font-size: 14px;
+  }
+  .Searchinput {
+    width: 48%;
+  }
+  .inputValues1 {
+    width: 60%;
+  }
+}
